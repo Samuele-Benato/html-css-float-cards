@@ -30,3 +30,24 @@
   width: calc(100% / 3 - 30px);
   float: left;
 }
+
+.card > * {
+  display: inline-block;
+}
+
+.card {
+  background-color: #0f0e17;
+  color: #ddd;
+  display: inline-block;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+
+img {
+  width: 70px;
+}
+
+.mail {
+  text-decoration: none;
+  color: #36c6e9;
+}
