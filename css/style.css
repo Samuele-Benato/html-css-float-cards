@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Utils*/
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+  padding: 15px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.f-left {
+  float: left;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.col33 {
+  width: calc(100% / 3 - 30px);
+  float: left;
+}
